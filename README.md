@@ -25,7 +25,7 @@ This project contains two basic recipes to implement a Docker host to run contai
 ```
 docker run -it --net=bridge core-test-image:latest bash
 ```
-# Deploy container on target:
+## Deploy container on target:
 -Extract container image to container-test-image.tar file : 
 ```
 bzip2 -df container-test-image.tar.bz2
